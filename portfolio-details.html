@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Impact Bootstrap Template - Portfolio Details</title>
+  <title>Web design</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,13 +27,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Impact - v1.1.0
-  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="megamenu.css" rel="stylesheet" />
+  
 </head>
 
 <body>
@@ -59,35 +54,90 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Impact<span>.</span></h1>
+        <img src="assets/img/favicon.png" alt="">
+        <!-- <h1>Impact<span>.</span></h1> -->
+        <a href="" class="logo d-flex align-items-center">
+        <div class="input-group  m-auto w-75">
+          <input type="search" class="form-control" placeholder="Search......" aria-label="search" aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2"><i class="bi bi-search"></i></span>
+        </div>
+      
+        </a>
       </a>
+    
+          
+           
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <div class="megadropdown">
+            <button class="dropbtn">
+             <b>SERVICE</b>
+             <i class="bi bi-chevron-down dropdown-indicator"></i>
+            </button>
+            <div class="megadropdown-content">
+              <div class="row">
+                <div class="column">
+                  <h3>Digital<br>Marketing</h3>
+                  <hr/>
+                  <a href="">SEO<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Local SEO<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Technical SEO<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Link Building<br>Service<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Google Analytic<br>Service<i class="bi bi-arrow-left"></i></a>
+                  <a href="">SEO Content Writing Service<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Pay per click-(PPC)<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Conversion Optimization<i class="bi bi-arrow-left"></i></a>
+                  </div>
+                <div class="column">
+                  <h3>Social Media Marketing</h3>
+                 
+                  <hr/>
+                   <a href="">Social Media<br> Management<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Social Media<br> Advertisement<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Social Media Brand<br>Management<i class="bi bi-arrow-left"></i></a>
+                
+                  
+                 </div>
+                <div class="column">
+                  <h3>Web<br>Design</h3>
+                  <hr/>
+                  <a href="">Custom Website<br>Design<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Wordpress Website<br>Design<i class="bi bi-arrow-left"></i></a>
+                  <a href="">eCommerce web<br>Design<i class="bi bi-arrow-left"></i></a>
+                  <a href="">Web hosting<i class="bi bi-arrow-left"></i></a>
+                  
+                 </div>
+                 
+               </div>
+            </div>
+          </div>
+         
+          <li class="dropdown"><a href="#"><span>WORK</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="webdesign.html">Web Design</a></li>
+              <li><a href="#">Social Media Marketing</a></li>
+              <li><a href="#">SEO</a></li>
+              
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>ABOUT</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Who We Are?</a></li>
+              <li><a href="#">Why Choose Us?</a></li>
+              <li><a href="#">SEO Code Of Ethics</a></li>
+              <li><a href="#">Client Testimonials</a></li>
+              <li><a href="#">Industries We Surve</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>LEARN</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><a href="#">Marketing Guide</a></li>
+              <li><a href="#">Google Page Experience Guide</a></li>
+              
+            </ul>
+          </li>
+          <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -97,6 +147,7 @@
     </div>
   </header><!-- End Header -->
   <!-- End Header -->
+  <main id="main">
 
   <main id="main">
 
