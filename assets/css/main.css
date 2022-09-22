@@ -462,6 +462,16 @@ section {
   }
 }
 
+.navbar .dropdown .dropdown .digital {
+  display: block;
+}
+
+@media screen and (min-width: 1040px) {
+  .navbar .dropdown .dropdown .digital {
+    display: none;
+  }
+}
+
 @media (min-width: 1280px) and (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
