@@ -478,6 +478,11 @@ section {
     display: none;
   }
 }
+/* @media screen and (min-width: 1420px) {
+  .hide {
+    display: none;
+  }
+} */
 
 /*--------------------------------------------------------------
 # Mobile Navigation
