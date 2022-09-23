@@ -1979,12 +1979,16 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  height: auto;
+  height: 100vh;
+  background: url(../img/about/bb.jpg),
+    linear-gradient(rgb(248, 245, 245), rgb(219, 212, 212), rgb(240, 234, 234));
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 1365px) {
   .hero {
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 }
 
