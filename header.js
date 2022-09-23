@@ -2,11 +2,11 @@ class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 <!-- ======= Header ======= -->
-<section id="topbar" class="topbar d-flex align-items-center">
+<section id="topbar" class="topbar d-flex align-items-center sticky-top">
   <div class="container d-flex justify-content-center justify-content-md-between">
     <div class="contact-info d-flex align-items-center">
       <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-      <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+      <i class="bi bi-phone d-flex align-items-center ms-4"><span><a href="tel:9878756778">+1 5589 55488 55</a></span></i>
     </div>
     <div class="social-links d-none d-md-flex align-items-center">
       <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -26,7 +26,7 @@ class MyHeader extends HTMLElement {
       <!-- <h1>Impact<span>.</span></h1> -->
      
     </a>
-   <nav id="navbar" class="navbar">
+   <nav id="navbar" class="navbar me-lg-5">
       <ul>
         <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
