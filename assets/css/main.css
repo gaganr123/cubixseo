@@ -1995,17 +1995,17 @@ section {
   object-fit: cover;
 }
 
-@media (min-width: 1365px) {
+/* @media (min-width: 1365px) {
   .hero {
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
-}
+} */
 
 .hero h2 {
   font-size: 48px;
   font-weight: 700;
   /* margin-bottom: 20px; */
-  color: saddlebrown;
+  color: var(--color-secondary);
 }
 .hero span {
   color: var(--color-primary);
