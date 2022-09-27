@@ -1988,14 +1988,11 @@ section {
   width: 100%;
   height: auto;
   /* background: url(../img/about/bb1.png); */
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.363),
-      rgba(0, 0, 0, 0.212),
-      rgba(0, 0, 0, 0.199)
-    ),
-    url("../img/about/web.png") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/about/1.png") center center;
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
 }
 
 @media (min-width: 1365px) {
