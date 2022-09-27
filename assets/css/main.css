@@ -1989,18 +1989,18 @@ section {
   height: auto;
   /* background: url(../img/about/bb1.png); */
   background: linear-gradient(
-      rgba(0, 0, 0, 0.89),
-      rgba(0, 0, 0, 0.863),
-      rgba(0, 0, 0, 0.959)
+      rgba(0, 0, 0, 0.363),
+      rgba(0, 0, 0, 0.212),
+      rgba(0, 0, 0, 0.199)
     ),
-    url("../img/cta-bg.jpg") center center;
+    url("../img/about/web.png") center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (min-width: 1365px) {
   .hero {
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 }
 
