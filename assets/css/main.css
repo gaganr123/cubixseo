@@ -1108,6 +1108,7 @@ section {
   position: relative;
   background: #fff;
   border-radius: 10px;
+  height: 400px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1201,7 +1202,11 @@ section {
     left: auto;
   }
 }
-
+@media (max-width: 320px) {
+  .testimonials .testimonial-item {
+    height: auto;
+  }
+}
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
@@ -1983,6 +1988,12 @@ section {
   width: 100%;
   height: auto;
   /* background: url(../img/about/bb1.png); */
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.89),
+      rgba(0, 0, 0, 0.863),
+      rgba(0, 0, 0, 0.959)
+    ),
+    url("../img/cta-bg.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
 }

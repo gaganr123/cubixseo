@@ -42,14 +42,8 @@ class MyHeader extends HTMLElement {
            
           </ul>
         </li>
-       <li class="dropdown"><a href="#"><span>COMPANY</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-          <ul>
-            <li><a href="who-we-are.html">ABOUT US?</a></li>
-            <li><a href="why-choose-us.html">WHY CHOOSE US?</a></li>
-            <li><a href="seo-code-of-ethics.html">SEO CODE OF ETHICS</a></li>
-            <li><a href="testimonials.html">CLIENTS TESTIMONIALS</a></li>
-            
-          </ul>
+      <li><a href="who-we-are.html">ABOUT US</a></li>
+           
         </li>
       <li><a href="blog.html">BLOGS</a></li>
       <li><a href="contact.html">CONTACT</a></li>
